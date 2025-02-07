@@ -43,6 +43,7 @@ nav ul li{
 }
 
 main{
+    place-items: center;
     padding-top: 20px;
     height: 100%;
     width: 100%;
@@ -51,8 +52,50 @@ main{
     line-height: 25px;
 }
 
-.lupa{
-    height: 10px;
+.buscador {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 5px;
+    width: 500px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.input-busqueda {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.icon {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+    color: #5f6368;
+}
+
+.lupa {
+    margin-right: 10px;
+}
+
+.microfono, .camara {
+    margin-left: 10px;
+}
+
+.main-buttons{
+    margin: 10px;
+    border-radius: 24px;
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+}
+
+.idioma{
+    color: rgb(57, 57, 245);
 }
 
 footer{
